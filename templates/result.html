@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Air Quality Index Predictor</title>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='diabetes-favicon.ico') }}">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+		<script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	</head>
+
+    <body>
+
+        <!-- Website Title -->
+		<div class="container">
+            <h2 class='container-heading'><span class="heading_font">Air Quality Index Predictor</span></h2>
+            <div class='description'>
+    			<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+    		</div>
+    	</div>
+
+		<!-- Result
+		<div class="results">
+			{% if prediction==1 %}
+				<h1>Prediction: <span class='danger'>Oops! You have DIABETES.</span></h1>
+				<img class="gif" src="{{ url_for('static', filename='diabetes.webp') }}" alt="Diabetes Image">
+			{% elif prediction==0 %}
+				<h1>Prediction: <span class='safe'>Great! You DON'T have diabetes.</span></h1>
+				<img class="gif1" src="{{ url_for('static', filename='no-diabetes.webp') }}" alt="Not Diabetes Image">
+			{% endif %}
+		</div>
+		 -->
+		<div class="results">
+			<h1>Air Quality Index : {{prediction}}</h1>
+		</div>
+
+
+		<!-- <table>-->
+		<table class="table">
+  <thead>
+    <tr>
+      <th scope="col"><h2>Remark</h2></th>
+      <th scope="col"><h2>AQI</h2></th>
+      <th scope="col"><h2>Possible Health Impacts</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="safe">
+      <td><h3>Good</h3></td>
+      <td><h3>0-50</h3></td>
+      <td><h3>Minimal Impact</h3></td>
+    </tr>
+    <tr style="color:#90EE90">
+      <td><h3>Satisfactory</h3></td>
+      <td><h3>51-100</h3></td>
+      <td><h3>Minor Breathing Discomfort To sensitive People</h3></td>
+    </tr>
+    <tr style="color:#CCCC00">
+      <td><h3>Moderate</h3></td>
+      <td><h3>101-200</h3></td>
+      <td><h3>Breathing discomfort to the people with lungs, asthma and heart diseases</h3></td>
+    </tr>
+    <tr style="color:#FFA500">
+      <td><h3>Poor</h3></td>
+      <td><h3>201-300</h3></td>
+      <td><h3>Breathing discomfort to most people on prolonged exposure</h3></td>
+    </tr>
+    <tr style="color:#FF0000">
+      <td><h3>Very Poor</h3></td>
+      <td><h3>301-400</h3></td>
+      <td><h3>Respiratory illness on prolonged exposure</h3></td>
+    </tr>
+    <tr style="color:#8B0000	" >
+      <td><h3>Severe</h3></td>
+      <td><h3>401-500</h3></td>
+      <td><h3>Affects healthy people and seriously impacts those with existing diseases</h3></td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+
+
+		<!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/anujvyas/Diabetes-Prediction-Deployment"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/nakul-amate/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made by Nakul.</p>
+       </div>
+
+	</body>
+</html>
