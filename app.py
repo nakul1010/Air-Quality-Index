@@ -1,11 +1,12 @@
 # Importing essential libraries
 from flask import Flask, render_template, request
 import pickle
-#import xgboost
+import xgboost
 import numpy as np
 import pandas as pd
 # Load the Random Forest CLassifier model
 #filename = 'xg_boost_regression_model.sav'
+print('Hello logs')
 loaded_model = pickle.load(open('xg_boost_regression_model.pkl', 'rb'))
 
 app = Flask(__name__)
