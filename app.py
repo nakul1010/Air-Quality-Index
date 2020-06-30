@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 # Load the Random Forest CLassifier model
 #filename = 'xg_boost_regression_model.sav'
-loaded_model = pickle.load(open('xg_boost_regression_model', 'rb'))
+loaded_model = pickle.load(open('xg_boost_regression_model.pkl', 'rb'))
 
 app = Flask(__name__)
     
