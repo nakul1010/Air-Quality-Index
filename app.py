@@ -1,7 +1,7 @@
 # Importing essential libraries
 from flask import Flask, render_template, request
 import pickle
-from xgboost import XGBRegressor
+#from xgboost import XGBRegressor
 import numpy as np
 import pandas as pd
 # Load the Random Forest CLassifier model
