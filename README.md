@@ -55,7 +55,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
         <td>Accuracy</td>
     </tr>
 </table>
-
+**Click on the Algorithm for jupyter notebook**
 
 ## Deployment
 * The app was deployed in heroku which is **Platform as a Service(PaaS)**.
