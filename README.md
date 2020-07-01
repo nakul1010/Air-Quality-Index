@@ -58,8 +58,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 ```
 
 ## Technologies Used
-[<img target="_blank" src="https://twilio-cms-prod.s3.amazonaws.com/images/scikit-learn.width-808.png" width=200>](https://scikit-learn.org/stable/)  [<img target="_blank" src=""https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png width=200>](https://flask.palletsprojects.com/en/1.1.x/)
-[<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=200>](https://gunicorn.org) [<img target="_blank" src="https://seekvectorlogo.net/wp-content/uploads/2018/12/heroku-vector-logo.png" width=200>](https://devcenter.heroku.com/categories/reference) 
+[<img target="_blank" src="https://twilio-cms-prod.s3.amazonaws.com/images/scikit-learn.width-808.png" width=200>](https://scikit-learn.org/stable/)  [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org)  [<img target="_blank" src="https://seekvectorlogo.net/wp-content/uploads/2018/12/heroku-vector-logo.png" width=200>](https://devcenter.heroku.com/categories/reference) 
 
 ## To Do
 
