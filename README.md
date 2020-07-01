@@ -20,7 +20,7 @@ AQI the aim of the app is to predict AQI of locality based on certain factors. A
 I couldn't find any relevant dataset for this purpose so I decided to scrape the climate data from **[this website](#https://waqi.info/)**. **Selenium and Beautiful Soup** were really helpful. You can find the code for scraping **[here](#)** and to combine all data **[here](#)**.
 
 ## EDA and Feature Engg
-[![png](readme_resources/air_pollutants_and_amount_in_atmosphere.png)]
+![png](readme_resources/air_pollutants_and_amount_in_atmosphere.png)
 ## Deployment
 
 ## Technologies Used
