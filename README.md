@@ -58,7 +58,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 ```
 
 ## Technologies Used
-[<img target="_blank" src="https://keras.io/img/logo.png" width=200>](https://keras.io/)
+[<img target="_blank" src="https://twilio-cms-prod.s3.amazonaws.com/images/scikit-learn.width-808.png" width=200>](https://keras.io/)
 
 ## To Do
 
