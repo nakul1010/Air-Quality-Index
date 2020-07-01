@@ -38,29 +38,20 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
         <td>Algorithm</td>
         <td>Accuracy</td>
     </tr>
-    
     <tr>
-        <td>1</td>
-        <td>Linear Regression</td>
-        <td></td>
+        <td>Sr no.</td>
+        <td>Algorithm</td>
+        <td>Accuracy</td>
     </tr>
-    
     <tr>
-        <td>2</td>
-        <td>Decision Tree</td>
-        <td></td>
+        <td>Sr no.</td>
+        <td>Algorithm</td>
+        <td>Accuracy</td>
     </tr>
-    
     <tr>
-        <td>3</td>
-        <td>Random Forest</td>
-        <td></td>
-    </tr>
-    
-    <tr>
-        <td>4</td>
-        <td>XG-Boost</td>
-        <td></td>
+        <td>Sr no.</td>
+        <td>Algorithm</td>
+        <td>Accuracy</td>
     </tr>
 </table>
 
