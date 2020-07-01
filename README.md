@@ -1,5 +1,6 @@
-## Air Quality Prediction of Delhi
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
+
+## Air Quality Prediction of Delhi
 **Link : https://air-quality-predictor.herokuapp.com/**
 
 ## Table of Content
