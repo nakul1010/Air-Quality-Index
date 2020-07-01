@@ -14,13 +14,6 @@
  * [License](#license)
 
 ## Demo
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
 
 ## Motivation
 Many website available on internet doesn't predict future air quality instead gives current date 
@@ -38,6 +31,14 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 * As in the pie chart SLP(Atmospheric pressure at sea level) is the most important feature for air quality index.
 
 ## Model Building
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
 
 ## Deployment
 * The app was deployed in heroku which is **Platform as a Service(PaaS)**.
