@@ -29,6 +29,30 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 * As in the pie chart SLP(Atmospheric pressure at sea level) is the most important feature for air quality index.
 
 ## Deployment
+* The app was deployed in heroku which is Platform as a Service.
+* Set the environment variable on Heroku as mentioned in _STEP 1_ in the __Run__ section. [[Reference](https://devcenter.heroku.com/articles/config-vars)]
+ ![](https://i.imgur.com/TmSNhYG.png)
+
+* Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
+
+## Directory Tree 
+```
+├── app 
+│   ├── __init__.py
+│   ├── main.py
+│   ├── model
+│   ├── static
+│   └── templates
+├── config
+│   ├── __init__.py
+├── processing
+│   ├── __init__.py
+├── requirements.txt
+├── runtime.txt
+├── LICENSE
+├── Procfile
+├── README.md
+
 
 ## Technologies Used
 
