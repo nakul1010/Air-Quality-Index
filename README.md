@@ -89,7 +89,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 
 ## To Do
 * Add more cities like Mumbai,Pune and Bengaluru where Air Pollution is a taboo.
-* Add a better vizualization chart to display the predictions.
+* Add a vizualization chart to display the predictions.
 * Convert the app to run without any internet connection, i.e. PWA.
 
 ## License
