@@ -1,6 +1,5 @@
 ## Air Quality Prediction of Delhi
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
-
 **Link : https://air-quality-predictor.herokuapp.com/**
 
 ## Table of Content
@@ -60,9 +59,12 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 ```
 
 ## Technologies Used
-[<img target="_blank" src="https://twilio-cms-prod.s3.amazonaws.com/images/scikit-learn.width-808.png" width=200>](https://scikit-learn.org/stable/)  [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org)  [<img target="_blank" src="https://seekvectorlogo.net/wp-content/uploads/2018/12/heroku-vector-logo.png" width=200>](https://devcenter.heroku.com/categories/reference)
-[<img target="_blank" src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772" width=200>](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+[<img target="_blank" src="https://twilio-cms-prod.s3.amazonaws.com/images/scikit-learn.width-808.png" width=200>](https://scikit-learn.org/stable/)  [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org)
+[<img target="_blank" src="https://seekvectorlogo.net/wp-content/uploads/2018/12/heroku-vector-logo.png" width=200>](https://devcenter.heroku.com/categories/reference)[<img target="_blank" src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772" width=200>](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 ## To Do
+* Add more cities like Mumbai,Pune and Bengaluru where Air Pollution is a taboo.
+* Add a better vizualization chart to display the predictions.
+* Convert the app to run without any internet connection, i.e. PWA.
 
 ## License
