@@ -34,7 +34,9 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 ## Model Building
 <table>
     <tr>
-        <td>Foo</td>
+        <td>Sr no.</td>
+        <td>Algorithm</td>
+        <td>Accuracy</td>
     </tr>
 </table>
 
