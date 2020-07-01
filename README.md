@@ -6,6 +6,7 @@
  * [Motivation](#motivation)
  * [Data Collection](#datacollection)
  * [EDA and Feature Engg](#complex)
+ * [Model Building](#modelbuilding)
  * [Deployment](#deployment)
  * [Directory Tree](#directorytree)
  * [Technologies Used](#technologies-used)
@@ -66,8 +67,10 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 * With the help of **correlation matrix & ExtraTreesRegressor algorithm** important and correlated features were able to identify.
 * As in the pie chart SLP(Atmospheric pressure at sea level) is the most important feature for air quality index.
 
+## Model Building
+
 ## Deployment
-* The app was deployed in heroku which is Platform as a Service.
+* The app was deployed in heroku which is **Platform as a Service(PaaS)**.
 * Set the environment variable on Heroku as mentioned in _STEP 1_ in the __Run__ section. [[Reference](https://devcenter.heroku.com/articles/config-vars)]
  ![](https://i.imgur.com/TmSNhYG.png)
 
@@ -90,32 +93,10 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 ├── LICENSE
 ├── Procfile
 ├── README.md
-
-
-## Technologies Used
-
-## To Do
-
-## License Tree 
 ```
-├── app 
-│   ├── __init__.py
-│   ├── main.py
-│   ├── model
-│   ├── static
-│   └── templates
-├── config
-│   ├── __init__.py
-├── processing
-│   ├── __init__.py
-├── requirements.txt
-├── runtime.txt
-├── LICENSE
-├── Procfile
-├── README.md
-
 
 ## Technologies Used
+[<img target="_blank" src="https://keras.io/img/logo.png" width=200>](https://keras.io/)
 
 ## To Do
 
