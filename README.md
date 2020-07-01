@@ -17,10 +17,17 @@
 Many website available on internet doesn't predict future air quality instead gives current date 
 AQI the aim of the app is to predict AQI of locality based on certain factors. Air pollution can cause both short term and long term effects on health and many people are concerned about pollution in the air that they breathe.
 ## Data Collection
-I couldn't find any relevant dataset for this purpose so I decided to scrape the climate data from **[this website](#https://waqi.info/)**. **Selenium and Beautiful Soup** were really helpful. You can find the code for scraping **[here](#)** and to combine all data **[here](#)**.
+I couldn't find any relevant dataset for this purpose so I decided to scrape the climate data from **[this website](#https://waqi.info/)** using **Selenium and Beautiful Soup** which were really helpful. You can find the code for scraping **[here](#)** and to combine all data **[here](#)**.
 
 ## EDA and Feature Engg
 ![png](readme_resources/air_pollutants_and_amount_in_atmosphere.png)
+* From the pie chart it is clear that all most 50% of air pollutant is from PM2.5(Particulate Matter) more info can be found out **[here](#https://en.wikipedia.org/wiki/Particulates)**. So the dependent feature was consider as PM2.5 . 
+* Valuable insights such as **air quality deterioration during Winter seasons** and how much effective was **odd even formula** by Delhi Government can be found out with the help of charts in this **[folder](#https://github.com/nakul1010/Air-Quality-Index/tree/master/readme_resources)**.
+
+![png](readme_resources/feature_score.png)
+* With the help of **correlation matrix & ExtraTreesRegressor algorithm** important and correlated features were able to identify.
+* As in the pie chart SLP(Atmospheric pressure at sea level) is the most important feature for air quality index.
+
 ## Deployment
 
 ## Technologies Used
