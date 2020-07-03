@@ -72,21 +72,28 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 
 ## Directory Tree 
 ```
-├── app 
-│   ├── __init__.py
-│   ├── main.py
-│   ├── model
-│   ├── static
-│   └── templates
-├── config
-│   ├── __init__.py
-├── processing
-│   ├── __init__.py
-├── requirements.txt
-├── runtime.txt
+├── models 
+│   ├── DecisisionTreeRegressor.ipynb
+│   ├── LinearRegression.ipynb
+│   ├── RandomForestRegressor.ipynb
+│   └── Xg_Boost.ipynb
+├── readme_resources
+├── static
+│   ├── style.css
+│   ├── logos    
+├── templates
+│   ├── index.html
+│   ├── result.html   
+├── weights 
+│   ├── DecisisionTreeRegressor.pkl
+│   ├── LinearRegression.pkl
+│   ├── RandomForestRegressor.pkl
+│   └── Xg_Boost.pkl
 ├── LICENSE
 ├── Procfile
 ├── README.md
+├── app.py
+├── requirements.txt
 ```
 
 ## Technologies Used
@@ -99,3 +106,4 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 * Convert the app to run without any internet connection, i.e. PWA.
 
 ## License
+
