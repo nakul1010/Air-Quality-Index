@@ -8,7 +8,7 @@
  * [Motivation](#motivation)
  * [Data Collection](#datacollection)
  * [EDA and Feature Engg](#complex)
- * [Model Building](#Model Building)
+ * [Model Building](#modelbuilding)
  * [Deployment](#deployment)
  * [Technologies Used](#technologies-used)
  * [To Do](#to-do)
