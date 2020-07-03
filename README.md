@@ -41,7 +41,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
     </tr>
     <tr>
         <td>1</td>
-        <td> [License](#license) </td>
+        <td>linear Regression</td>
         <td>0</td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
     </tr>
 </table>
 
-**Click on the Algorithm for jupyter notebook**
+**[Click here for Juyter Notebooks of algorithm] (#https://github.com/nakul1010/Air-Quality-Index/tree/master/models)**
 
 ## Deployment
 * The app was deployed in heroku which is **Platform as a Service(PaaS)**.
