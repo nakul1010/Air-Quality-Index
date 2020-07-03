@@ -60,6 +60,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
         <td>0</td>
     </tr>
 </table>
+
 **Click on the Algorithm for jupyter notebook**
 
 ## Deployment
