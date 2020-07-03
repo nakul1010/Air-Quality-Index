@@ -40,19 +40,24 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
         <td>Accuracy</td>
     </tr>
     <tr>
-        <td>Sr no.</td>
-        <td>Algorithm</td>
-        <td>Accuracy</td>
+        <td>1</td>
+        <td>Linear Regression</td>
+        <td>0</td>
     </tr>
     <tr>
-        <td>Sr no.</td>
-        <td>Algorithm</td>
-        <td>Accuracy</td>
+        <td>2</td>
+        <td>Decision Tree</td>
+        <td>0</td>
     </tr>
     <tr>
-        <td>Sr no.</td>
-        <td>Algorithm</td>
-        <td>Accuracy</td>
+        <td>3</td>
+        <td>Random Forest</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>XGBoost</td>
+        <td>0</td>
     </tr>
 </table>
 **Click on the Algorithm for jupyter notebook**
