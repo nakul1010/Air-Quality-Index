@@ -6,7 +6,7 @@
 ## Table of Content
  * [Demo](#demo)
  * [Motivation](#motivation)
- * [Data Collection](#datacollection)
+ * [Data-Collection](#data-collection)
  * [EDA and Feature Engg](#complex)
  * [Model Building](#modelbuilding)
  * [Deployment](#deployment)
@@ -20,7 +20,7 @@
 Many website available on internet doesn't predict future air quality instead gives current date 
 AQI the aim of the app is to predict AQI of locality based on certain factors. Air pollution can cause both short term and long term effects on health and many people are concerned about pollution in the air that they breathe.
 
-## Data Collection
+## Data-Collection
 I couldn't find any relevant dataset for this purpose so I decided to scrape the climate data from **[this website](#https://waqi.info/)** using **Selenium and Beautiful Soup** which were really helpful. You can find the code for scraping **[here](#)** and to combine all data **[here](#)**.
 
 ## EDA and Feature Engg
