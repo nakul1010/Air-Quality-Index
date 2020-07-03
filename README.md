@@ -108,7 +108,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
 ## License
 [![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)](http://www.apache.org/licenses/LICENSE-2.0e)
 
-Copyright 2020 Rohit Swami
+Copyright 2020 Nakul Amate
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
