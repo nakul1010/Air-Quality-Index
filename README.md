@@ -61,7 +61,8 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
     </tr>
 </table>
 
- **[Click here for Jupyter Notebooks](#https://github.com/nakul1010/Air-Quality-Index/tree/master/models)** 
+**The models folder contains all the Jupyter Notebooks of Algorithms**
+
 ## Deployment
 * The app was deployed in heroku which is **Platform as a Service(PaaS)**.
 * Set the environment variable on Heroku as mentioned in _STEP 1_ in the __Run__ section. [[Reference](https://devcenter.heroku.com/articles/config-vars)]
