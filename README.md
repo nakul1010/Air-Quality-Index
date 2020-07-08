@@ -21,12 +21,12 @@ Many website available on internet does not predict future air quality instead g
 AQI the aim of the app is to predict AQI of locality based on certain factors. Air pollution can cause both short term and long term effects on health and many people are concerned about pollution in the air that they breathe.
 
 ## Data Collection
-I couldn't find any relevant dataset for this purpose so I decided to scrape the climate data from  [this website](https://waqi.info/) using **Selenium and Beautiful Soup** which were really helpful. You can find the code for scraping **[here](https://github.com/nakul1010/Air-Quality-Index/tree/master/scraping)** and to combine all data **[here](#)**.
+I couldn't find any relevant dataset for this purpose so I decided to scrape the climate data from  **[this website](https://waqi.info/)** using **Selenium and Beautiful Soup** which were really helpful. You can find the code for scraping **[here](https://github.com/nakul1010/Air-Quality-Index/tree/master/scraping)** and to combine all data **[here](https://github.com/nakul1010/Air-Quality-Index/blob/master/scraping/Extract_combine.py)**.
 
 ## EDA and Feature Engg
 ![png](readme_resources/air_pollutants_and_amount_in_atmosphere.png)
-* From the pie chart it is clear that all most 50% of air pollutant is from PM2.5(Particulate Matter) more info can be found out **[here](#https://en.wikipedia.org/wiki/Particulates)**. So the dependent feature was consider as PM2.5 . 
-* Valuable insights such as **air quality deterioration during Winter seasons** and how much effective was **odd even formula** by Delhi Government can be found out with the help of charts in this **[folder](#https://github.com/nakul1010/Air-Quality-Index/tree/master/readme_resources)**.
+* From the pie chart it is clear that all most 50% of air pollutant is from PM2.5(Particulate Matter) more info can be found out **[here](https://en.wikipedia.org/wiki/Particulates)**. So the dependent feature was consider as PM2.5 . 
+* Valuable insights such as **air quality deterioration during Winter seasons** and how much effective was **odd even formula** by Delhi Government can be found out with the help of charts in this **[folder](https://github.com/nakul1010/Air-Quality-Index/tree/master/readme_resources)**.
 
 ![png](readme_resources/feature_score.png)
 * With the help of **correlation matrix & ExtraTreesRegressor algorithm** important and correlated features were able to identify.
@@ -61,7 +61,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
     </tr>
 </table>
 
-**The models folder contains all the Jupyter Notebooks of Algorithms**
+**The Jupyter Notebooks of Algorithms can be found out [here](https://github.com/nakul1010/Air-Quality-Index/tree/master/models)**
 
 ## Deployment
 * The app was deployed in heroku which is **Platform as a Service(PaaS)**.
