@@ -54,7 +54,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
         <td>Random Forest</td>
         <td>41.53</td>
     </tr>
-    <tr bgcolor="red">
+    <tr bgcolor=#123456>
         <td>4</td>
         <td>XGBoost</td>
         <td>36.70</td>
