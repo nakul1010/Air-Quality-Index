@@ -41,7 +41,7 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
     </tr>
     <tr>
         <td>1</td>
-        <td>[linear-regression](https://github.com/nakul1010/Air-Quality-Index/tree/master/models)</td>
+        <td>Linear Regression</td>
         <td>56.79</td>
     </tr>
     <tr>
