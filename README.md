@@ -37,27 +37,27 @@ I couldn't find any relevant dataset for this purpose so I decided to scrape the
     <tr>
         <td>Sr no.</td>
         <td>Algorithm</td>
-        <td>Accuracy</td>
+        <td>RMSE</td>
     </tr>
     <tr>
         <td>1</td>
-        <td>linear Regression</td>
-        <td>0</td>
+        <td>[linear Regression](https://github.com/nakul1010/Air-Quality-Index/tree/master/models)</td>
+        <td>56.79</td>
     </tr>
     <tr>
         <td>2</td>
         <td>Decision Tree</td>
-        <td>0</td>
+        <td>56.31</td>
     </tr>
     <tr>
         <td>3</td>
         <td>Random Forest</td>
-        <td>0</td>
+        <td>41.53</td>
     </tr>
     <tr>
         <td>4</td>
         <td>XGBoost</td>
-        <td>0</td>
+        <td>36.70</td>
     </tr>
 </table>
 
