@@ -17,8 +17,7 @@
 ## Demo
 
 ## Motivation
-Many website available on internet does not predict future air quality instead gives current date 
-AQI the aim of the app is to predict AQI of locality based on certain factors. Air pollution can cause both short term and long term effects on health and many people are concerned about pollution in the air that they breathe.
+Many website available on the internet does not predict the future air quality index given current date AQI the aim of the app is to predict AQI of locality based on certain factors. Air pollution can cause both short term and long term effects on health and many people are concerned about pollution in the air that they breathe.
 
 ## Data Collection
 I couldn't find any relevant dataset for this purpose so I decided to scrape the climate data from  **[this website](https://waqi.info/)** using **Selenium and Beautiful Soup** which were really helpful. You can find the code for scraping **[here](https://github.com/nakul1010/Air-Quality-Index/tree/master/scraping)** and to combine all data **[here](https://github.com/nakul1010/Air-Quality-Index/blob/master/scraping/Extract_combine.py)**.
